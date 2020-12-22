@@ -1,0 +1,122 @@
+/***************************** general ****************************/
+
+body {
+	background-color: #eee;
+}
+
+
+/***************************** header *****************************/
+
+#company-logo {
+	width: 80px;
+	margin-left: 40px;
+}
+
+
+/****************************** main *****************************/
+
+/*** candidate left section [START] ****/
+#candidate-left-section {
+	padding-top: 50px;
+}
+
+#candidate-img {
+	margin-left: 10%;
+	width: 80%;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+#candidate-name {
+	margin: 20px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#radar-chart {
+	margin-top: 50px;
+	margin-left: 10%;
+	width: 80%;
+}
+/**** candidate left section [END] ****/
+
+/*** candidate right section [START] **/
+#candidate-right-section {
+	padding-top: 50px;
+}
+
+#candidate-right-section h5 {
+	color: #777;
+}
+
+#question-nav {
+	position: relative;
+	width: 292px;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-bottom: 50px;
+}
+
+#question-nav .fas {
+	font-size: 90px;
+	cursor: pointer;
+}
+
+#question-list-container {
+	display: inline-block;
+	width: 210px;
+	height: 65px;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+#question-list {
+	display: block;
+	height: 50px;
+	width: max-content;
+}
+
+#question-list .question-number {
+	display: inline-block;
+	position: relative;
+	background-color: #09f;
+	color: #fff;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: 20px 2px 0px 2px;
+	top: -20px;
+	cursor: pointer;
+}
+
+#question-list .active {
+	background-color: #f90;
+}
+
+#question-text {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+#question-grade .fa-star {
+	font-size: 25px;
+	color: #888;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+#question-grade .checked {
+	color: #fa0;
+}
+
+#question-comment {
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+}
+/*** candidate right section [END] ****/
